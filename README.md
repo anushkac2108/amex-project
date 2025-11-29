@@ -21,26 +21,6 @@ The problem statement required participants to build a model to rank-order Amex 
   2. **Events Data**
   3. **Transaction Data**
 
-## Repository Structure
-
-```
-├── data/
-│   ├── (Raw data files: train.parquet, test.parquet, add_trans.parquet, etc.)
-│
-├── code/
-│   ├── 1_data_preparation.ipynb        # Handles data loading, merging, and time-based splitting
-│   ├── 2_feature_engineering.ipynb     # Creates 420+ features from raw data
-│   ├── 3_model_training.ipynb          # Trains final LightGBM model and runs Optuna tuning
-│
-├── reports/
-│   ├── final_presentation.pdf          # (Link to be added)
-│   ├── feature_importance.csv          # (Link to be added)
-│
-├── submission/
-│   ├── final_submission.csv            # (Link to be added)
-│
-└── README.md                           # This file
-```
 
 ## Methodology
 
