@@ -6,7 +6,7 @@ Our final solution is a LightGBM model trained on 320 heavily-engineered feature
 
 ## Key Resources
 
-* **[Final Presentation](https://drive.google.com/file/d/1sOVyTmuxhXn0Fk8sWwgjadTRuIhmT2Ry/view?usp=sharing)**: A slide deck detailing our final solution, methodology, and key findings.
+* **[Final Presentation](https://drive.google.com/file/d/1mY16O6gIz0lN75hVJemL---BRQPRrr3B/view?usp=drive_link)**: A slide deck detailing our final solution, methodology, and key findings.
 * **[Final Submission CSV](https://drive.google.com/file/d/1_O8QieK9x76Ap4NTYNc3wXGSR_47Ud7i/view?usp=sharing)**: The final submission file with predicted probabilities.
 * **[Feature Importance Report](https://docs.google.com/spreadsheets/d/1CbMKPWqzkMuxSdTFwAh33ef7jD8QkRLq/edit?gid=1678302543#gid=1678302543)**: A CSV file ranking the 320 features used in the final model by their LightGBM importance.
 
@@ -83,14 +83,14 @@ Our iterative approach yielded significant performance gains at each step, valid
 | :------------------------------------------------- | :----------- |
 | Baseline (LGBM Standalone)                         | 0.456        |
 | + Time-based Split + Preliminary Feature Engg.     | 0.562        |
-| **Final Model (Time-split + Final Feature Engg.)** | **0.623**    |
+| **Final Model (Time-split + Final Feature Engg.)** | **0.56**    |
 
 Our final model achieved an **absolute gain of \~17%** over the baseline, demonstrating the power of robust validation and deep feature engineering.
 
 ## Team
 
-* Aditya Kanagalekar
-* Ashutosh Balasubramaniam
-* Jahnavi Kumar
+* Anushka Choudhary
+* Ananya Singh
+* Dhruv Bhasin
 
 *IIT Guwahati*
