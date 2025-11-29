@@ -2,7 +2,7 @@
 
 This repository contains the solution for the **American Express Campus Challenge 2025** (Amex Offerings Personalization). The goal of this data science challenge was to predict the probability that a customer will click on a given Amex offering, given that they have already seen it.
 
-Our final solution is a LightGBM model trained on 320 heavily-engineered features, which achieved a **MAP\@7 score of 0.623** on the holdout validation set. This represents a \~17% absolute performance gain over the baseline model.
+Our final solution is a LightGBM model trained on 320 heavily-engineered features, which achieved a **MAP\@7 score of 0.56** on the holdout validation set. This represents a \~17% absolute performance gain over the baseline model.
 
 ## Key Resources
 
